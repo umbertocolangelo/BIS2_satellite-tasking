@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Maxar",
+    "tasking": {
+      "type": "API",
+      "source": "https://securewatch.maxar.com/mapservice",
+      "cost_per_sq_km": 20
+    }
+  },
+  {
+    "name": "Sentinel",
+    "tasking": {
+      "type": "API",
+      "source": "https://planetarycomputer.microsoft.com/api/stac/v1",
+      "cost_per_sq_km": 0
+    }
+  },
+  {
+    "name": "Landsat",
+    "tasking": {
+      "type": "API",
+      "source": "https://planetarycomputer.microsoft.com/api/stac/v1",
+      "cost_per_sq_km": 0
+    }
+  },
+  {
+    "name": "Modis",
+    "tasking": {
+      "type": "API",
+      "source": "https://planetarycomputer.microsoft.com/api/stac/v1",
+      "cost_per_sq_km": 0
+    }
+  },
+  {
+    "name": "Eros-B",
+    "tasking": {
+      "type": "form",
+      "source": "https://apollomapping.com/buy-imagery",
+      "cost_per_sq_km": 6
+    }
+  },
+  {
+    "name": "Planet",
+    "tasking": {
+      "type": "form",
+      "source": "https://www.planet.com/contact-sales/",
+      "cost_per_sq_km": 14
+    }
+  },
+  {
+    "name": "Airbus",
+    "tasking": {
+      "type": "form",
+      "source": "https://www.intelligence-airbusds.com/imagery/oneatlas/order-form/?oneatlas_subscription_type_of_inquiry=Pleiades_Neo_tasking_archive",
+      "cost_per_sq_km": 12.5
+    }
+  }
+]
